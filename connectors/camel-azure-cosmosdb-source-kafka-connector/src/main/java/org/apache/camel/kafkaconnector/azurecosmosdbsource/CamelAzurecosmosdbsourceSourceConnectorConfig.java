@@ -42,10 +42,10 @@ public class CamelAzurecosmosdbsourceSourceConnectorConfig
     public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_LEASE_CONTAINER_NAME_DOC = "Sets the lease database where the leaseContainerName will be stored.";
     public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_LEASE_CONTAINER_NAME_DEFAULT = null;
     public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_CREATE_LEASE_DATABASE_IF_NOT_EXISTS_CONF = "camel.kamelet.azure-cosmosdb-source.createLeaseDatabaseIfNotExists";
-    public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_CREATE_LEASE_DATABASE_IF_NOT_EXISTS_DOC = "Sets if the component should create Cosmos lease database for the consumer automatically in case it does not exist in Cosmos account.";
+    public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_CREATE_LEASE_DATABASE_IF_NOT_EXISTS_DOC = "Sets if the component should create Cosmos lease database for the consumer automatically in case it donot exist in Cosmos account.";
     public static final Boolean CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_CREATE_LEASE_DATABASE_IF_NOT_EXISTS_DEFAULT = false;
     public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_CREATE_LEASE_CONTAINER_IF_NOT_EXISTS_CONF = "camel.kamelet.azure-cosmosdb-source.createLeaseContainerIfNotExists";
-    public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_CREATE_LEASE_CONTAINER_IF_NOT_EXISTS_DOC = "Sets if the component should create Cosmos lease container for the consumer automatically in case it does not exist in Cosmos database.";
+    public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_CREATE_LEASE_CONTAINER_IF_NOT_EXISTS_DOC = "Sets if the component should create Cosmos lease container for the consumer automatically in case it donot exist in Cosmos database.";
     public static final Boolean CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_CREATE_LEASE_CONTAINER_IF_NOT_EXISTS_DEFAULT = false;
     public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_DATABASE_ENDPOINT_CONF = "camel.kamelet.azure-cosmosdb-source.databaseEndpoint";
     public static final String CAMEL_SOURCE_AZURECOSMOSDBSOURCE_KAMELET_DATABASE_ENDPOINT_DOC = "Sets the Azure Cosmos database endpoint the component will connect to.";
